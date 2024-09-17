@@ -2,14 +2,6 @@
 
 This initial step of the project processes unstructured citations from a `.json.gz` file, extracts them, writes them to `.txt` files, and uses Grobid's `processCitationsList` service to convert the unstructured citations into structured XML files.
 
-## Prerequisites
-
-You need to install the following before running the script:
-
-- **Python 3.x**
-- **Grobid** (installed and running locally)
-- **Grobid Python Client**
-
 ## Installation Guide
 
 ### Step 1: Clone the Grobid repository and run the service
@@ -49,10 +41,10 @@ You need to install the following before running the script:
       pip install -r requirements.txt
 
 3. Create a configuration file config.json in the same directory as the script to specify the Grobid server URL:
-  
-      {
-        "grobid_url": "http://localhost:8070"
-      }
+     ```bash 
+         {
+           "grobid_url": "http://localhost:8070"
+         }
 
 
 ### Step 3: Prepare your environment
@@ -81,7 +73,7 @@ Ensure that the input file 0.json.gz is placed in the same directory as the scri
 
 ### Step 5: Check the output
 
-    The structured XML files will be saved in the structured/ directory. You can inspect them to verify that the citations have been correctly structured.
+The structured XML files will be saved in the structured/ directory. You can inspect them to verify that the citations have been correctly structured.
 
 
 
