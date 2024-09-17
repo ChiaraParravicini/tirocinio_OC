@@ -34,18 +34,6 @@ This initial step of the project processes unstructured citations from a `.json.
     git clone https://github.com/kermitt2/grobid-client-python.git
     cd grobid-client-python
 
-2. Install the required dependencies:
-
-    ```bash
-    
-      pip install -r requirements.txt
-
-3. Create a configuration file config.json in the same directory as the script to specify the Grobid server URL:
-     ```bash 
-         {
-           "grobid_url": "http://localhost:8070"
-         }
-
 
 ### Step 3: Prepare your environment
 
