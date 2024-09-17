@@ -75,7 +75,3 @@ Ensure that the input file 0.json.gz is placed in the same directory as the scri
 
 The structured XML files will be saved in the structured/ directory. You can inspect them to verify that the citations have been correctly structured.
 
-
-
-
-[Notion diary](https://www.notion.so/Internship-diary-f2620243a2e0431a8f8c908c7dd997ed?pvs=4)
