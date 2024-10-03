@@ -4,12 +4,12 @@ import json
 from grobid_client.grobid_client import GrobidClient
 
 # Crea il client GROBID - Modifica il path al config.json se necessario
-client = GrobidClient(config_path="config.json")
+client = GrobidClient(config_path="./config.json")
 
 # Parametri principali
 input_file = "0.json.gz"  # Nome del file gz con citazioni non strutturate
 max_lines = 100  # Numero massimo di citazioni per ogni file .txt
-service_name = "processCitationsList"
+service_name = "processCitationList"
 
 # Creare una cartella per salvare le citazioni non strutturate
 if not os.path.exists("unstructured"):
